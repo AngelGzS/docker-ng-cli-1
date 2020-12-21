@@ -41,6 +41,7 @@ RUN apt-get update && apt-get install -qqy --no-install-recommends \
     rsync \
     curl \
     zip \
+    lftp \
     openssh-client \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
